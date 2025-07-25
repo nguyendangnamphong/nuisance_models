@@ -20,3 +20,11 @@
   + Random feature selection: Khi chia node, mỗi cây chỉ xem xét một tập con ngẫu nhiên của các đặc trưng thay vì hết tất cả. Giúp tránh một vài đặc trưng nổi bật áp đảo, tạo sự không đồng nhất giữa các cây
   + Aggregation: Classification (lấy phiếu đa số từ các cây) ; Regression (lấy giá trị trung bình đầu ra của các cây)
   + Out-Of-Bag: Dữ liệu không nằm trong bootstrap dùng để đánh giá mô hình mà không cần dùng cross-validation riêng. Đây là ước lượng sai số nội bộ và khá đáng tin cậy
+**c) Kết quả đo lường**
++ *R²*: 0.796
++ *MSE*: 43.1178
++ *R² cross-validation*: -1.3895 ± 1.0452                            
++ *MSE cross-validation*: 493.3883 ± 595.7211
++ *R² trên tập huấn luyện*(kiểm tra overfiting): 0.8996
++ *MSE trên tập huấn luyện*(kiểm tra overfiting): 23.1840
+
