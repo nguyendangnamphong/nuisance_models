@@ -46,7 +46,10 @@
                                                          
 **c) Tập ngẫu nhiên**                                                             
 Kết quả cho các random_state khác nhau:                                                                                                  
-<img width="1170" height="305" alt="image" src="https://github.com/user-attachments/assets/67d2ee0c-0ec3-4f79-96f5-310c4df0f3fa" />                                               
+                                  
+<img width="1862" height="889" alt="Capture" src="https://github.com/user-attachments/assets/debf3f0f-9600-4ab5-a47a-25098365c16b" />                                                    
+<img width="1170" height="305" alt="image" src="https://github.com/user-attachments/assets/67d2ee0c-0ec3-4f79-96f5-310c4df0f3fa" />                                                      
+
 **d) Đánh giá dựa trên kết quả đo lường ở tập ngẫu nhiên**                                                
 *Biến động hiệu suất*                                         
 + R² trên tập kiểm tra dao động từ 0.796 (random_state=42) đến 0.8537 (random_state=456), và MSE từ 34.8817 đến 43.1778. Sự biến động này cho thấy hiệu suất mô hình phụ thuộc phần nào vào cách chia dữ liệu, nhưng không quá lớn.                                                                                                                
