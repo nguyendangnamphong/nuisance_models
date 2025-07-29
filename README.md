@@ -25,10 +25,10 @@
 **a) Tập cố định**                  
 + *R²*: 0.796
 + *MSE*: 43.1178
-+ *R² cross-validation*: -1.3895 ± 1.0452                            
-+ *MSE cross-validation*: 493.3883 ± 595.7211
-+ *R² trên tập huấn luyện*(kiểm tra overfiting): 0.8996
-+ *MSE trên tập huấn luyện*(kiểm tra overfiting): 23.1840
++ *R² cross-validation* (R²_CV): -1.3895 ± 1.0452                            
++ *MSE cross-validation* (MSE_CV): 493.3883 ± 595.7211
++ *R² trên tập huấn luyện*(R²_train): 0.8996
++ *MSE trên tập huấn luyện*(MSE_train): 23.1840
 
                                              
 **b) Đánh giá dựa trên kết quả đo lường ở tập cố định**                                                              
